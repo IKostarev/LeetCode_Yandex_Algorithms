@@ -1,15 +1,15 @@
 package leetcode
 
-type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
+type TreeNode1 struct {
+	Val   int
+	Left  *TreeNode1
+	Right *TreeNode1
 }
 
-func isSameTree(p *TreeNode, q *TreeNode) bool {
-    if p == nil && q == nil{
-		return true 
-	} else if p == nil || q == nil{
+func isSameTree(p *TreeNode1, q *TreeNode1) bool {
+	if p == nil && q == nil {
+		return true
+	} else if p == nil || q == nil {
 		return false
 	}
 

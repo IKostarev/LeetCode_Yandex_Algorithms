@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 func longestCommonPrefix(strs []string) string {
 	lenStrs := len(strs)
@@ -41,6 +41,6 @@ func longestCommonPrefix(strs []string) string {
 func main() {
 	//... do something
 
-	testCase := []string{"flower","flow","flight"}
+	testCase := []string{"flower", "flow", "flight"}
 	longestCommonPrefix(testCase)
 }

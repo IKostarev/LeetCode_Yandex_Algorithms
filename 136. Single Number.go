@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 import "fmt"
 
@@ -18,7 +18,7 @@ func mySort(items []int) []int {
 }
 
 func singleNumber(nums []int) int {
-    if len(nums) == 1 {
+	if len(nums) == 1 {
 		return nums[0]
 	}
 
@@ -47,6 +47,6 @@ func singleNumber(nums []int) int {
 }
 
 func main() {
-	num := []int{4,1,2,1,2}
+	num := []int{4, 1, 2, 1, 2}
 	fmt.Println(singleNumber(num))
 }

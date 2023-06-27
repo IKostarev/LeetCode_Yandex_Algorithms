@@ -1,7 +1,7 @@
 package leetcode
 
 func leetcode() {
-	removeDuplicates()
+	//removeDuplicates()
 }
 
 func removeElement(nums []int, val int) int {
